@@ -22,11 +22,16 @@ woman Anopheles mosquito. With almost 240 million cases
 mentioned each year, the sickness puts nearly forty percentage
 of the global populace at danger. 
 Thus,treatment of this disorder at the inital stages of occurance in the host's body is very neccessary,but for the treatment to take place the first step is the proper diagnosis of the host to detect malaria. Microscopic examinations of thick and thin blood smears for infected RBCs is commonly used for method of malaria diagnosis. Depending
-on the local protocol, the examination includes: (i)
+on the local protocol, the examination includes: 
+(i)
 classifying and counting the normal and infected
-erythrocytes in the thin smear images; and/or (ii) counting
-parasites in thick smear images as specified in the WHO
-guidelines [3]. Thus, the diagnostic accuracy is heavily
+erythrocytes in the thin smear images; and/or 
+(ii) countingparasites in thick smear images as specified in the WHO
+guidelines. Thus, the diagnostic accuracy is heavily
 dependent on manual expertise and can be adversely
 impacted by the burden posed by large scale analyses that
-are common in malaria endemic regions
+are common in malaria endemic regionsAlternative
+techniques such as polymerase chain reaction (PCR) and
+rapid diagnostic tests (RDT) are also widely used. However,
+PCR tests are limited in their performance while RDTs
+are less cost-effective in zones with high disease prevalence 
