@@ -26,5 +26,9 @@ We have used the [NIH malaria dataset](https://lhncbc.nlm.nih.gov/publication/pu
 #### preprocessing:
 We augmented our data on the fly using the [Albumentations library](https://albumentations.ai/). We applied random flips and rotations with random changes in lighting by increasing/decreasing contrast, gamma & brightness. 
 ### Network Architecture:
+We have created three model architecture using different API namely
+* Sequential API : We have used keras sequential API to build this architectire along with keras image generators.
+* Functional API : We have used funtional API along with custom functional generator for this model architecture.
+* Transfer Learning : We have used transfer learning with DenseNet201 along with functional API for this model.
 
 
