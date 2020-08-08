@@ -30,5 +30,11 @@ We have created three model architecture using different API namely
 * Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architectire along with [keras image generators.](https://keras.io/api/preprocessing/image/)
 * Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
 * Transfer Learning : We have used transfer learning with [DenseNet201](https://keras.io/api/applications/densenet/) along with functional API for this model.
+### Loss Function And Optimizer:
+The loss-function that we have used here is binary cross entropy. And, the optimiser that we have used is Nadam.  
+### Learning Rate:
+In case of sequential API we have used a fixed learing rate.
+But in case of the other two models the learning rate we have used here is not constant throughout the training of the data, instead we have used a learning rate schedular, which increases/decreases the learning rate gradually after every fixed set of epochs such that  we can attain the optimum convergence by the end of our training of the data.
 
+### Result:
 
