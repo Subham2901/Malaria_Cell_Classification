@@ -27,17 +27,17 @@ We have used the [NIH malaria dataset](https://lhncbc.nlm.nih.gov/publication/pu
 We augmented our data on the fly using the [Albumentations library](https://albumentations.ai/). We applied random flips and rotations with random changes in lighting by increasing/decreasing contrast, gamma & brightness. 
 ### Network Architecture:
 We have created three model architecture using different API namely
-* Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architectire along with [keras image generators.](https://keras.io/api/preprocessing/image/)
+### * Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architectire along with [keras image generators.](https://keras.io/api/preprocessing/image/)
 ##### Sequential API
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/images/seq.png)
-* Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
+### * Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
 #### Functional API
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/images/func.png)
-* Transfer Learning : We have used transfer learning with [DenseNet201](https://keras.io/api/applications/densenet/) along with functional API for this model.
+### * Transfer Learning : We have used transfer learning with [DenseNet201](https://keras.io/api/applications/densenet/) along with functional API for this model.
 #### Transfer Learning
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/images/TL.png)
 ### Loss Function And Optimizer:
-The loss-function that we have used here is binary cross entropy. And, the optimiser that we have used is Nadam.  
+The loss-function that we have used here is [binary cross entropy.](https://keras.io/api/losses/probabilistic_losses/#binarycrossentropy-class) And, the optimiser that we have used is [Nadam.](https://keras.io/api/optimizers/Nadam/)  
 ### Learning Rate:
 In case of sequential API we have used a fixed learing rate.
 But in case of the other two models the learning rate we have used here is not constant throughout the training of the data, instead we have used a learning rate schedular, which increases/decreases the learning rate gradually after every fixed set of epochs such that  we can attain the optimum convergence by the end of our training of the data.
