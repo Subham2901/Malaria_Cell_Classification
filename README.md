@@ -25,15 +25,15 @@ We have used the [NIH malaria dataset](https://lhncbc.nlm.nih.gov/publication/pu
 
 * __Here are some sample picture of the dataset we have dealt with.__
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/samplepic.JPG)
-#### preprocessing:
+#### Preprocessing:
 We augmented our data on the fly using the [Albumentations library](https://albumentations.ai/). We applied random flips and rotations with random changes in lighting by increasing/decreasing contrast, gamma & brightness. 
 ### Network Architecture:
 We have created three model architecture using different API namely
-###### * Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architectire along with [keras image generators.](https://keras.io/api/preprocessing/image/)
-##### Sequential API
+#### * Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architecture along with [keras image generators.](https://keras.io/api/preprocessing/image/)
+###### Sequential API
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/images/seq.png)
-###### * Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
-#### Functional API
+#### * Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
+###### Functional API
 __We have used the same model structure just in funtional paradigm along with custom generator and augmentations.__
 ### * Transfer Learning : We have used transfer learning with [DenseNet201](https://keras.io/api/applications/densenet/) along with functional API for this model.
 #### Transfer Learning
