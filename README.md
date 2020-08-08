@@ -22,6 +22,9 @@ is a blood disorder, which is transmitted through the bite of a woman Anopheles 
 PCR tests are limited in their performance while RDTs are less cost-effective in zones with high disease prevalence 
 ### Dataset and preprocessing:
 We have used the [NIH malaria dataset](https://lhncbc.nlm.nih.gov/publication/pub9932),which contains 27,588 cell images with equal instances of parasitized and uninfected cells. Positive samples contained Plasmodium and negative samples contained no Plasmodium but other types of objects including staining artifacts/impurities. There are total __13,779 paratisized and 13,779 uninfected__ image samples.
+
+* __Here are some sample picture of the dataset we have dealt with.__
+![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/samplepic.JPG)
 #### preprocessing:
 We augmented our data on the fly using the [Albumentations library](https://albumentations.ai/). We applied random flips and rotations with random changes in lighting by increasing/decreasing contrast, gamma & brightness. 
 ### Network Architecture:
@@ -56,5 +59,5 @@ __Hence we can clearly see from the three graphs that the model architecture usi
 * __Table 2__
 ![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/auctable.JPG)
 
-### Conclusion :
+### Conclusion:
 __Hence we can conlcude that Using transfer learning we  extract many unwanted features in our model which stands out to be irrelevant while classifying the real data.Here, Our functional model with a custom generator has succesfully performed the task better than the model that we have created usng transfer learning__
