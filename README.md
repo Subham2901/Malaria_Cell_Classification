@@ -7,6 +7,7 @@
 * [Loss Function & Optimizer](#Loss-Function-And-Optimizer)
 * [Learning Rate](#Learning-Rate)
 * [Result](#Result)
+* [Conclusion](#Conclusion)
 
 ### Contributors:
 This project is created by the joint efforts of
@@ -41,7 +42,19 @@ In case of sequential API we have used a fixed learing rate.
 But in case of the other two models the learning rate we have used here is not constant throughout the training of the data, instead we have used a learning rate schedular, which increases/decreases the learning rate gradually after every fixed set of epochs such that  we can attain the optimum convergence by the end of our training of the data.
 
 ### Result:
+We have compared the results mainly on the basis of validation [accuracy](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/AUC) and validation [AUC](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/AUC) of three model architectures.
+
+##### * Graphical comparision:  
+![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/Final%20Graph.JPG)
+__Hence we can clearly see from the three graphs that the model architecture using functional API has performed better w.r.t to the other two models.__
 
 
+#### * Tabular Representation:
+* __Table 1__
+![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/acctable.JPG)
 
+* __Table 2__
+![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/graphs/auctable.JPG)
 
+### Conclusion :
+__Hence we can conlcude that Using transfer learning we  extract many unwanted features in our model which stands out to be irrelevant while classifying the real data.Here, Our functional model with a custom generator has succesfully performed the task better than the model that we have created usng transfer learning__
