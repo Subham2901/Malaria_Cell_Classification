@@ -21,5 +21,10 @@ is a blood disorder, which is transmitted through the bite of a woman Anopheles 
 * classifying and counting the normal and infected erythrocytes in the thin smear images; and/or 
 * ountingparasites in thick smear images as specified in the WHOguidelines. Thus, the diagnostic accuracy is heavilydependent on manual expertise and can be adversely impacted by the burden posed by large scale analyses that are common in malaria endemic regionsAlternative techniques such as polymerase chain reaction (PCR) and rapid diagnostic tests (RDT) are also widely used. However,
 PCR tests are limited in their performance while RDTs are less cost-effective in zones with high disease prevalence 
-Dataset and preprocessing: 
+### Dataset and preprocessing:
+We have used the [NIH malaria dataset](https://lhncbc.nlm.nih.gov/publication/pub9932),which contains 27,588 cell images with equal instances of parasitized and uninfected cells. Positive samples contained Plasmodium and negative samples contained no Plasmodium but other types of objects including staining artifacts/impurities. There are total __13,779 paratisized and 13,779 uninfected__ image samples.
+#### preprocessing:
+We augmented our data on the fly using the [Albumentations library](https://albumentations.ai/). We applied random flips and rotations with random changes in lighting by increasing/decreasing contrast, gamma & brightness. 
+### Network Architecture:
+
 
