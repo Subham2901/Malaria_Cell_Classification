@@ -28,6 +28,7 @@ We augmented our data on the fly using the [Albumentations library](https://albu
 ### Network Architecture:
 We have created three model architecture using different API namely
 * Sequential API : We have used [keras sequential API](https://keras.io/guides/sequential_model/) to build this architectire along with [keras image generators.](https://keras.io/api/preprocessing/image/)
+![](https://github.com/Subham2901/Malaria_Cell_Classification/blob/master/images/TL.png)
 * Functional API : We have used [funtional API](https://keras.io/guides/functional_api/) along with custom functional generator for this model architecture.
 * Transfer Learning : We have used transfer learning with [DenseNet201](https://keras.io/api/applications/densenet/) along with functional API for this model.
 ### Loss Function And Optimizer:
