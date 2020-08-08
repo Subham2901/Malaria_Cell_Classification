@@ -7,13 +7,11 @@
 * [Loss Function & Optimizer](#Loss-Function-And-Optimizer)
 * [Learning Rate](#Learning-Rate)
 * [Result](#Result)
-* [Citations](#Citations)
 
 ### Contributors:
 This project is created by the joint efforts of
 * [Subham Singh](https://github.com/Subham2901)
 * [Sandeep Ghosh](https://github.com/Sandeep2017)
-* [Amit Maity](https://github.com/Neel1097)
 
 ### Introduction:
 Malaria caused by the Plasmodium parasites,
@@ -43,6 +41,7 @@ In case of sequential API we have used a fixed learing rate.
 But in case of the other two models the learning rate we have used here is not constant throughout the training of the data, instead we have used a learning rate schedular, which increases/decreases the learning rate gradually after every fixed set of epochs such that  we can attain the optimum convergence by the end of our training of the data.
 
 ### Result:
+
 
 
 
