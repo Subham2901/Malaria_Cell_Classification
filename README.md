@@ -1,5 +1,9 @@
 # Malaria Cell Classification
- ## Table of contents
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+ ## Overview
 * [Contributors](#Contributors)
 * [Introduction](#Introduction)
 * [Dataset & Preprocessing](#Dataset-And-Preprocessing)
